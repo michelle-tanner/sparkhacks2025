@@ -8,9 +8,8 @@
 This Git Repository is a showcase of the Thai Bowl Official Website that we are currently discussing for official deployment!
 
 Languages: 
-- HTML, CSS, JavaScript
-<br>
-<hr>
+- HTML, CSS, JavaScript <br>
+
 Frameworks: 
 - Astro
 
@@ -21,13 +20,13 @@ Here is the [Figma](https://www.figma.com/design/fOv3IHvzo8Lq04Wo5iTMxj/Thai-Bow
 ## 🔔 Credits
 Developed by: 
 
-- [Christopher Harrison](https://github.com/ToppiTheThinker), 
+- [Christopher Harrison](https://github.com/ToppiTheThinker) 
 
-- [Hafsah Khan](https://github.com/hafsahkhan1), 
+- [Hafsah Khan](https://github.com/hafsahkhan1) 
 
-- [Josephine Lee](https://github.com/abyssaldragonz), 
+- [Josephine Lee](https://github.com/abyssaldragonz) 
 
-- [Manasvi Sharma](https://github.com/manasvi2006), 
+- [Manasvi Sharma](https://github.com/manasvi2006) 
 
 - [Michelle Tanner](https://github.com/michelle-tanner/) <br><br>
 
