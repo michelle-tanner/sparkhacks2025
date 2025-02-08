@@ -1,7 +1,21 @@
 ---
 layout: "../layouts/Layout.astro";
 import "../styles/global.css";
+
+const googleMapsApiKey = import.meta.env.GOOGLE_MAPS_API_KEY;
 ---
+
+<header class="header">
+    <h1 class="logo">Thai Bowl</h1>
+    <div class="button-group">
+        <a class="menu-btn" href="#menu">Menu</a>
+        <a class="order-btn" href="#order-online">Order Online</a>
+    </div>
+</header>
+
+<div class="imgbox">
+    <img class="center-fit" src="src/assets/logo.png" alt="Thai Bowl Logo">
+</div>
 
 <header class="header">
     <h1 class="logo">Thai Bowl</h1>
@@ -36,7 +50,7 @@ import "../styles/global.css";
 	
     <h1 class="font-bold text-2xl m-5">Location</h1>
     <div class="square"><h3>Embedded Google Maps</h3></div>
-    <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJIS2xdeQsDogR6lM4WLXiLG4&key=AIzaSyBDHiSi_z0p4XXPoItEGLWtHGRe06At5jA"></iframe>
+    <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJIS2xdeQsDogR6lM4WLXiLG4&key=${googleMapsApiKey}`}></iframe>
     <div class="square"><h3>Hours of Operation</h3></div>
     <div class="square"><h3>Contact Info</h3></div>
 
@@ -47,5 +61,7 @@ import "../styles/global.css";
             how long have they been in business something else blah blah blah blah</p>
     </div>
     <h1 class="font-bold text-2xl m-5">Menu</h1>
+
+</div>
 
 </div>
