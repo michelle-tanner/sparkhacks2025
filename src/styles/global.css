@@ -20,6 +20,12 @@
     top: 0;
     z-index: 1000;
 }
+
+.dropDownLine {
+    border-radius: 25px 25px 0 0;
+}
+
+
 /* Footer styles */
 .footer {
     background-color: #BA2430;
@@ -146,7 +152,7 @@ nav a:hover {
 /* Section headers */
 .banner {
     background-color: #72AE8F;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Century Gothic', cursive;
     font-weight: lighter;
     /* font-size: 120%; */
     padding: 1rem;
@@ -161,23 +167,6 @@ nav a:hover {
 
 h1, h2 {
     margin: 20px 0;
-}
-
-/* Green Gallery */
-.greenGalleryBox{
-    background-color: #6cab8b;
-    width:300px;
-    padding: 20px;
-    border: 8px;
-    margin: 20px 0;
-    display: flex;
-}
-
-.innerPics{
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 20px;
 }
 
 #photos {
@@ -282,6 +271,7 @@ h1, h2 {
   height: 275px;
   background-color: #7e2917;
   border-radius:8px;
+  align-self: center
 }
 
 

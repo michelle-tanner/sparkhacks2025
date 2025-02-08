@@ -2,8 +2,17 @@
 layout: "../layouts/Layout.astro";
 import "../styles/global.css";
 import Carousel from "../components/Carousel.astro";
-import Test from "../components/Test.astro"
+import Test from "../components/Test.astro";
 ---
+
+<head>
+  <title>Thai Bowl Taylor - Chicago, IL 60607</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Thai Bowl Taylor | 1049 W. Taylor Street, Chicago, IL 60607 | 312-226-9129. Copyright © 2025 All rights reserved." />
+  <meta name="keywords" content="Thai Bowl, Chicago, IL, 60607, Thai Menu, Thai restaurant Chicago, Thai restaurant 60607, Thai food Chicago, Thai food 60607, Thai food delivery, Thai delivery Chicago, Thai delivery 60607, Thai food catering, Thai carry out, Thai dine in, Thai party trays, Thai food order online." />
+  <meta name="author" content="Pod Thai @ UIC SparkHacks 2025" />
+  <link rel="icon" href="src/assets/footer-logo.jpg" />
+</head>
 
 <body>
   <!-- <head> <link rel="stylesheet" href="https://use.typekit.net/wsv5iwd.css" /> </head> -->
@@ -18,52 +27,27 @@ import Test from "../components/Test.astro"
 
   <!-- Big Thai bowl picture -->
   <div class="imgbox">
-    <img
-      style="max-width: 100%;"
-      class="center-fit"
-      src="src/assets/logo.png"
-      alt="Thai Bowl Banner"
-    />
+    <img style="max-width: 100%;" class="center-fit" src="src/assets/logo.png" alt="Thai Bowl Banner" /> 
   </div>
-  
-  <h2
-    class="banner"
-    style="background-color: #BA2430; color: white; margin-top: 1rem; margin-bottom: 1rem"
-  >
+
+  <h2 class="banner" style="background-color: #BA2430; color: white; margin-top: 1rem; margin-bottom: 1rem">
     10% discount for UIC students
   </h2>
   <!-- Thai Bowl Photos -->
 
-  <!-- CAROUSELLSS                  CAROUSELLS                  CAROUSELLLS  -->
   <!-- Carousel for displayed images -->
   <Carousel />
 
   <!-- Location Banner -->
   <h1 class="banner">Location</h1>
   <!-- Map, Hours, Service, Contact -->
-  <section
-    style="display: grid; flex-direction: column; gap: 1.5rem; grid-template-column: 65% 35%; grid-template-row: 50% 50%; align-items: center"
-  >
-    <div
-      style="grid-area: 1 / 1 / span 2 / span 1; border: 0; width:600; height:450"
-    >
-      <div
-        style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;"
-      >
-        <div
-          id="embed-map-display"
-          style="height:100%; width:100%;max-width:100%;"
-        >
-          <iframe
-            style="height:100%;width:100%;border:0;"
-            frameborder="0"
-            src="https://www.google.com/maps/embed/v1/place?q=thai+bowl+chicago&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-          ></iframe>
-        </div><a
-          class="the-googlemap-enabler"
-          href="https://kbj9qpmy.com/bp"
-          id="get-data-for-embed-map">Internet Provider</a
-        ><style>
+  <section style="display: grid; flex-direction: column; gap: 1.5rem; grid-template-column: 65% 35%; grid-template-row: 50% 50%; align-items: center" >
+    <div style="grid-area: 1 / 1 / span 2 / span 1; border: 0; width:600; height:450">
+      <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+        <div id="embed-map-display" style="height:100%; width:100%;max-width:100%;" >
+          <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=thai+bowl+chicago&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+        </div><a class="the-googlemap-enabler" href="https://kbj9qpmy.com/bp" id="get-data-for-embed-map">Internet Provider</a>
+        <style>
           #embed-map-display img.text-marker {
             max-width: none !important;
             background: none !important;
@@ -108,20 +92,28 @@ import Test from "../components/Test.astro"
   <footer class="footer">
     <div class="footer-content">
       <img
-        style="width: 40px; height: 40pxpx; margin-top: 10px"
+        style="width: 40px; height: 40px; margin-top: 10px"
         src="src/assets/footer-logo.jpg"
         alt="footer logo"
       />
-      <p style="margin-top: 10px; font-size: smaller">
-        Pages
-      </p>
-      <p>&#8226; <a style="color:white; font-weight: 100; font-size: medium" href="/">Home</a></p>
+      <p style="margin-top: 10px; font-size: smaller">Pages</p>
       <p>
-        &#8226; <a style="color:white; font-weight: 100; font-size: medium" href="/menu">Menu</a>
+        &#8226; <a
+          style="color:white; font-weight: 100; font-size: medium"
+          href="/">Home</a
+        >
       </p>
       <p>
-        &#8226; <a style="color:white; font-weight: 100; font-size: medium" href="/order-online"
-          >Order Online</a>
+        &#8226; <a
+          style="color:white; font-weight: 100; font-size: medium"
+          href="/menu">Menu</a
+        >
+      </p>
+      <p>
+        &#8226; <a
+          style="color:white; font-weight: 100; font-size: medium"
+          href="/order-online">Order Online</a
+        >
       </p>
       <br />
       <p style="margin-top: 10px; font-size: smaller">
@@ -129,6 +121,4 @@ import Test from "../components/Test.astro"
       </p>
     </div>
   </footer>
-
-  
 </body>

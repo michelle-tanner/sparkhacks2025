@@ -1,0 +1,70 @@
+---
+
+---
+
+<!-- html and jsx syntax (body) -->
+<div class="container" style="margin-top: 15rem; margin-bottom: 15rem">
+    <div class="carousel-view" style="width: 750px; align-items: center">
+      <button
+        id="prev-btn"
+        class="prev-btn"
+        onclick="(function(){
+          const list = document.getElementById(`item-list`);
+          const itemWidth = 650;
+          const padding = 10;
+          list.scrollLeft -= itemWidth + padding;
+          return false;
+  })();return false;"
+      >
+        <svg viewBox="0 0 512 512" width="20">
+          <path
+            d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"
+          ></path>
+        </svg>
+      </button>
+      <div id="item-list" class="item-list">
+        <img id="item" class="item" style="min-width: 650px; height: 100%" src="/src/assets/menu1.png" />
+        <img id="item" class="item" style="min-width: 650px; height: 100%" src="/src/assets/menu2.png" />
+        <img id="item" class="item" style="min-width: 650px; height: 100%" src="/src/assets/menu3.png" />
+      </div>
+      <button
+        id="next-btn"
+        class="next-btn"
+        onclick="(function(){
+          const list = document.getElementById(`item-list`);
+          const itemWidth = 650;
+          const padding = 10;
+          list.scrollLeft += itemWidth + padding;
+          return false;
+  })();return false;"
+      >
+        <svg viewBox="0 0 512 512" width="20">
+          <path
+            d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
+          ></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+  
+  <!-- <script>
+    function scroll() {
+      console.log("HELLO WORLD");
+      const prev = document.getElementById("prev-btn");
+      const next = document.getElementById("next-btn");
+      const list = document.getElementById("item-list");
+  
+      const itemWidth = 150;
+      const padding = 10;
+      if (prev == null || next == null || list == null) return;
+      prev.addEventListener("click", () => {
+        console.log("PREV CALLED");
+        list.scrollLeft -= itemWidth + padding;
+      });
+  
+      next.addEventListener("click", () => {
+        list.scrollLeft += itemWidth + padding;
+      });
+    }
+  </script> -->
+  
