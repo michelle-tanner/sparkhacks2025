@@ -1,5 +1,22 @@
+# SparkHacks 2025
+## Team Name!
+<sup> Easy Page View Link <a href="" target="_blank">here</a> </sup>
+
+## 🚀 About
+Add super cool description here! <br>
+
+## 📜 Documentation
+Add some documentation here! <br>
+
+## 🔔 Credits
+Developed by [Christopher Harrison](https://github.com/ToppiTheThinker), [Hafsah Khan](), [Josephine Lee](https://github.com/abyssaldragonz), [Manasvi Sharma](), [Michelle Tanner](https://github.com/michelle-tanner/) <br> 
+
+Check out [Thai Bowl](https://thaibowltaylor.com/) at 1049 W Taylor St, Chicago, IL 60607
+<br> <br> <br>
+
+
 # Astro Starter Kit: Basics
-# HELLO THIS IS CHRIS!!!
+
 ```sh
 npm create astro@latest -- --template basics
 ```
