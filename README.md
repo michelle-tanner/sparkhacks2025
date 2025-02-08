@@ -1,15 +1,15 @@
 # SparkHacks 2025
 ## Team Name!
-<sup> Easy Page View Link <a href="https://95jkkh64-4321.use.devtunnels.ms/" target="_blank">here</a> </sup>
+<sup> Easy Page View Link <a href="https://95jkkh64-4321.use.devtunnels.ms/" target="_blank">here</a>. Read below to run locally. </sup>
 
 ## 🚀 About
-This Git Repository is a showcase of the Thai Bowl Official Website that we are currently discussing with Thai Bowl!
+This Git Repository is a showcase of the Thai Bowl Official Website that we are currently discussing with Thai Bowl! Created for SparkHacks 2025: Track 3!
 
 Languages: 
 - HTML, CSS, JavaScript
 <br>
 <hr>
-Frameworks used: 
+Frameworks: 
 - Astro
 
 ## 📜 Documentation
