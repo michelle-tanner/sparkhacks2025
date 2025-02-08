@@ -1,32 +1,35 @@
 ---
 layout: "../layouts/Layout.astro";
 import "../styles/global.css";
+import Carousel from './components/Carousel';
 ---
 
 <header class="header">
-    <h1 class="logo">Thai Bowl</h1>
+    <a class="home-btn" href="/">Thai Bowl</a>
     <div class="button-group">
-        <a class="menu-btn" href="#menu">Menu</a>
-        <a class="order-btn" href="#order-online">Order Online</a>
+        
+        <a class="menu-btn" href="/menu">Menu</a>
+        <a class="order-btn" href="/order-online">Order Online</a>
     </div>
 </header>
 
+<!-- <Carousel>
+    
+</Carousel> -->
+
+<!-- Big Thai bowl picture -->
 <div class="imgbox">
-    <img class="center-fit" src="src/assets/logo.png" alt="Thai Bowl Logo">
+    <img style="max-width: 100%;" class="center-fit" src="src/assets/logo.png" alt="Thai Bowl Logo">
 </div>
 
-<h1 class="font-bold text-3xl m-5">Thai Bowl Logo</h1>
+<!-- <div class="greenGalleryBox">
+    test
+</div> -->
 
-<nav>
-    <a class="m-5 link" href="#home">Home</a>
-    <a class="m-5 link" href="#menu">Menu</a>
-    <a class="m-5 link" href="#order-online">Order Online</a>
-</nav>
-
-<h2 class="banner" style="background-color: #BA2430">10% discount for UIC students</h2>
+<h2 class="banner" style="background-color: #BA2430; margin-top: 1rem;">10% discount for UIC students</h2>
 
 <div class="flex flex-col">
-    <h1 class="banner font-bold text-2xl m-5">Gallery</h1>
+    <!-- <h1 class="banner font-bold text-2xl m-5">Gallery</h1> -->
     <div class="flex flex-row" id="photos">
         <img class="" src="src/assets/photo3.png" />
         <img class="" src="src/assets/photo3.png" />
@@ -37,14 +40,23 @@ import "../styles/global.css";
     <h1 class="banner font-bold text-2xl m-5">Location</h1>
     <section style="display: grid; flex-direction: column; gap: 1rem; grid-template-column: 65% 35%; grid-template-row: 50% 50%; align-items: center"> 
         <div style="grid-area: 1 / 1 / span 2 / span 1; border: 0; width:600; height:450"> <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;"><div id="embed-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=thai+bowl+chicago&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="the-googlemap-enabler" href="https://kbj9qpmy.com/bp" id="get-data-for-embed-map">Internet Provider</a><style>#embed-map-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div> </div>
-        <div class="square" style="grid-area: 1 / 2 / span 1 / span 1"><h3>Hours of Operation</h3></div>
-        <div class="square" style="grid-area: 2 / 2 / span 1 / span 1"><h3>Contact Info</h3></div>
+        <div class="square" style="grid-area: 1 / 2 / span 1 / span 1">
+            <h3>Hours of Operation:</h3>
+            <p> Monday - Sunday: 11AM - 7:30PM</p>
+        </div>
+        <div class="square" style="grid-area: 2 / 2 / span 1 / span 1">
+            <h3>Contact Info:</h3> 
+            <p>(312) 226-9129</p> 
+            <p>(312) 226-5865</p>
+            <p>FAX: (312) 226-6314</p>
+            <p>1049 W Taylor St, Chicago, IL 60607</p>
+        </div>
     </section>
 
     <h1 class="banner font-bold text-2xl m-5">About</h1>
     <div class="text" style="width: auto; height: auto">
         <img style="float: right" class="" src="src/assets/photo3.png" />
-        <p>Story story sotry text about us text story and history of the restaurant
+        <p>Story story story text about us text story and history of the restaurant
             how long have they been in business something else blah blah blah blah</p>
     </div>
     <h1 class="font-bold text-2xl m-5">Menu</h1>

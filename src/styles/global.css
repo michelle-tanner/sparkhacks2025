@@ -1,3 +1,9 @@
+/* FONTS */
+@font-face {
+    font-family: 'ThaiBrush';
+    src: url('/fonts/BrushScript7_Ms-Regular.ttf') format('truetype');
+}
+
 /* Reset styles */
 * {
     margin: 0;
@@ -65,10 +71,19 @@
     background-color: #ae412c;
 }
 
+.home-btn {
+    color: black;
+    margin-left: 1rem;
+}
+
+.home-btn:hover {
+    transform: scale(1.2)
+}
+
 /* General styles */
 body {
     background-color: #FCF1E2;
-    font-family: Arial, sans-serif;
+    font-family: 'ThaiBrush', sans-serif !important;
     width: 100%;
     height: 100%;
     display: flex;
@@ -84,6 +99,11 @@ body {
     align-items: center;
     width: 100%;
     margin: 20px 0;
+}
+
+.fooditem {
+    width: 10rem;
+    height: auto;
 }
 
 .center-fit {
@@ -112,15 +132,37 @@ nav a:hover {
 /* Section headers */
 .banner {
     background-color: #72AE8F;
+    padding: 1rem;
+    padding-top: 2.5rem;
     margin-top: 10rem;
     width: 100%;
+    --mask: radial-gradient(25px at top,#0000 calc(100% - 1px),#000) 50%/46.25px 100%;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
 }
 
 h1, h2 {
     margin: 20px 0;
+    font-family: 'ThaiBrush', sans-serif !important;
 }
 
-/* Gallery */
+/* Green Gallery */
+.greenGalleryBox{
+    background-color: #6cab8b;
+    width:300px;
+    padding: 20px;
+    border: 8px;
+    margin: 20px 0;
+    display: flex;
+}
+
+.innerPics{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
 #photos {
     display: flex;
     flex-wrap: wrap;
@@ -138,8 +180,9 @@ h1, h2 {
 .square {
     width: 300px;
     height: 150px;
-    background-color: beige;
+    background-color: #BA2430;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 8px;
@@ -154,6 +197,75 @@ h1, h2 {
     border-radius: 8px;
     text-align: left;
 }
+
+
+/* Carousel stuff */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+button{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: none;
+    transition: all .3s ease-in-out;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.carousel-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 44px 0;
+  transition: all 0.25s ease-in;
+}
+
+.carousel-view .item-list {
+  max-width: 950px;
+  width: 70vw;
+  padding: 50px 10px;
+  display: flex;
+  gap: 48px;
+  scroll-behavior: smooth;
+  transition: all 0.25s ease-in;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.item-list::-webkit-scrollbar {
+  display: none;
+}
+
+.prev-btn {
+  background: none;
+  cursor: pointer;
+}
+
+.next-btn {
+  cursor: pointer;
+}
+
+.item {
+  scroll-snap-align: center;
+  min-width: 120px;
+  height: 120px;
+  background-color: deeppink;
+  border-radius:8px;
+}
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
