@@ -1,7 +1,70 @@
 ---
-// java script (frontmatter)
-
-
+const { name, price, description } = Astro.props;
 ---
 
 <!-- html and jsx syntax (body) -->
+<div class="food-item-card">
+  <h2 class="food-item-name">{name}</h2>
+  <p class="food-item-description">{description}</p>
+  <p class="food-item-price">Price: ${price}</p>
+</div>
+
+<style>
+  .food-item-card {
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .food-item-name {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+
+  .food-item-description {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .food-item-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .food-item-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    scale: 1.02;
+    transition: ease-in-out 0.2s;
+    animation: pulseBorder 1.5s infinite;
+  }
+
+  @keyframes pulseBorder {
+    /* pulsating colors and makes it shrink and expand */
+    0% {
+      transform: scale(1);
+      outline: 4px solid #000000;
+      box-shadow: 0 0 8px #7e2917;
+    }
+    50% {
+      transform: scale(1.05);
+      outline: 4px solid #7e2917;
+      box-shadow: 0 0 25px #000000;
+    }
+    100% {
+      transform: scale(1);
+      outline: 4px solid #000000;
+      box-shadow: 0 0 8px #7e2917;
+    }
+  }
+
+</style>

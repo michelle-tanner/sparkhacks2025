@@ -7,6 +7,7 @@ Add super cool description here! <br>
 
 ## 📜 Documentation
 Add some documentation here! <br>
+[Figma](https://www.figma.com/design/fOv3IHvzo8Lq04Wo5iTMxj/Thai-Bowl-Redesign?node-id=0-1&t=NKGrzQCZv4t4ZpPz-1)
 
 ## 🔔 Credits
 Developed by [Christopher Harrison](https://github.com/ToppiTheThinker), [Hafsah Khan](), [Josephine Lee](https://github.com/abyssaldragonz), [Manasvi Sharma](), [Michelle Tanner](https://github.com/michelle-tanner/) <br> 
