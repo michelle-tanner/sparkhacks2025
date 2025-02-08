@@ -1,7 +1,8 @@
 /* FONTS */
 @font-face {
     font-family: 'ThaiBrush';
-    src: url('/fonts/BrushScript7_Ms-Regular.ttf') format('truetype');
+    src: url('/fonts/BrushScript7_Ms-Regular.ttf') format('truetype'),
+    url('fonts/brushscript7_ms-regular_2-webfont.woff') format('woff');
 }
 
 /* Reset styles */

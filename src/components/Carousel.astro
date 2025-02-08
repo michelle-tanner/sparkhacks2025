@@ -1,20 +1,18 @@
 ---
-document.addEventListener('DOMContentLoaded', () => {
-  const prev = document.getElementById('prev-btn')
-  const next = document.getElementById('next-btn')
-  const list = document.getElementById('item-list')
+const prev = document.getElementById('prev-btn')
+const next = document.getElementById('next-btn')
+const list = document.getElementById('item-list')
 
-  const itemWidth = 150
-  const padding = 10
-  if (prev == null || next == null || list == null)
-    return
-  prev.addEventListener('click', () => {
-    list.scrollLeft -= itemWidth + padding
-  })
+const itemWidth = 150
+const padding = 10
+if (prev == null || next == null || list == null)
+  return
+prev.addEventListener('click', () => {
+  list.scrollLeft -= itemWidth + padding
+})
 
-  next.addEventListener('click', () => {
-    list.scrollLeft += itemWidth + padding
-  })
+next.addEventListener('click', () => {
+  list.scrollLeft += itemWidth + padding
 })
 
 ---
