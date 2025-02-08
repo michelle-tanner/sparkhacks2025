@@ -2,6 +2,7 @@
 layout: "../layouts/Layout.astro";
 import "../styles/global.css";
 import Carousel from "../components/Carousel.astro";
+import Test from "../components/Test.astro"
 ---
 
 <body>
@@ -14,10 +15,6 @@ import Carousel from "../components/Carousel.astro";
       <a class="order-btn" href="/order-online">Order Online</a>
     </div>
   </header>
-  <!-- 
-<Carousel>
-    
-</Carousel> -->
 
   <!-- Big Thai bowl picture -->
   <div class="imgbox">
@@ -28,27 +25,22 @@ import Carousel from "../components/Carousel.astro";
       alt="Thai Bowl Banner"
     />
   </div>
-
-  <!-- <div class="greenGalleryBox">
-    test
-</div> -->
-
+  
   <h2
     class="banner"
-    style="background-color: #BA2430; color: white; margin-top: 1rem;"
+    style="background-color: #BA2430; color: white; margin-top: 1rem; margin-bottom: 1rem"
   >
     10% discount for UIC students
   </h2>
+  <!-- Thai Bowl Photos -->
 
-  <!-- <h1 class="banner font-bold text-2xl m-5">Gallery</h1> -->
-  <div class="container" id="photos">
-    <img style="max-width: 100%" src="src/assets/fried-rice.png" />
-    <img style="max-width: 100%" src="src/assets/vibe.JPG" />
-    <img style="max-width: 100%" src="src/assets/noodles2.png" />
-    <!-- <img class="" src="src/assets/photo3.png" /> -->
-  </div>
+  <!-- CAROUSELLSS                  CAROUSELLS                  CAROUSELLLS  -->
+  <!-- Carousel for displayed images -->
+  <Carousel />
 
-  <h1 class="banner font-bold text-2xl m-5">Location</h1>
+  <!-- Location Banner -->
+  <h1 class="banner">Location</h1>
+  <!-- Map, Hours, Service, Contact -->
   <section
     style="display: grid; flex-direction: column; gap: 1.5rem; grid-template-column: 65% 35%; grid-template-row: 50% 50%; align-items: center"
   >
@@ -88,10 +80,9 @@ import Carousel from "../components/Carousel.astro";
       <p><br /></p>
       <h3 style="color: white; font-size: medium">Service Options:</h3>
       <ul style="list-style-type:disc; color: white">
-        <li style="display: inline">Outdoor Seating  </li>
-        <li style="display: inline">&#8226;  Take-Out</li>
+        <li style="display: inline">&#8226; Outdoor Seating</li>
+        <li style="display: inline">&#8226; Take-Out</li>
       </ul>
-      <!-- <p style="color: white; font-size: medium">-Outdoor Seating        -Take-Out</p> -->
     </div>
     <div class="square" style="grid-area: 2 / 2 / span 1 / span 1">
       <h3 style="color: white">Contact Info:</h3>
@@ -101,16 +92,43 @@ import Carousel from "../components/Carousel.astro";
       <p style="color: white">1049 W Taylor St, Chicago, IL 60607</p>
     </div>
   </section>
-
-  <h1 class="banner font-bold text-2xl m-5">About</h1>
+  <!-- About Banner -->
+  <h1 class="banner">About</h1>
   <section>
-    <div class="text" style="width: auto; height: auto">
-      <img style="float: right" class="" src="src/assets/Restaurant.JPG" />
-      <p>
+    <div class="text" style="display: flex; width: auto; height: auto; margin-bottom: 3rem">
+      <p style="margin: 2rem;">
         Neighborhood storefront spot serving authentic and traditional Thai
-        food.
+        food. Family-owned business.
       </p>
+      <img style="float: right; width: 40%; height: auto " class="" src="src/assets/vibe.jpg" />
     </div>
   </section>
-  <!-- <h1 class="font-bold text-2xl m-5">Menu</h1> -->
+
+  <!-- Footer for page -->
+  <footer class="footer">
+    <div class="footer-content">
+      <img
+        style="width: 40px; height: 40pxpx; margin-top: 10px"
+        src="src/assets/footer-logo.jpg"
+        alt="footer logo"
+      />
+      <p style="margin-top: 10px; font-size: smaller">
+        Pages
+      </p>
+      <p>&#8226; <a style="color:white; font-weight: 100; font-size: medium" href="/">Home</a></p>
+      <p>
+        &#8226; <a style="color:white; font-weight: 100; font-size: medium" href="/menu">Menu</a>
+      </p>
+      <p>
+        &#8226; <a style="color:white; font-weight: 100; font-size: medium" href="/order-online"
+          >Order Online</a>
+      </p>
+      <br />
+      <p style="margin-top: 10px; font-size: smaller">
+        &copy;2025 Pod Thai. All Rights Reserved
+      </p>
+    </div>
+  </footer>
+
+  
 </body>

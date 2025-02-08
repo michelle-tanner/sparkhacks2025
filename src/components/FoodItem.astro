@@ -1,12 +1,15 @@
 ---
-const { name, price, description } = Astro.props;
+const { name, price, description} = Astro.props;
 ---
 
 <!-- html and jsx syntax (body) -->
 <div class="food-item-card">
   <h2 class="food-item-name">{name}</h2>
   <p class="food-item-description">{description}</p>
+  <div class="price-addCart-container">
   <p class="food-item-price">Price: ${price}</p>
+  <p class="addCart">+</p>
+  </div>
 </div>
 
 <style>
@@ -24,6 +27,7 @@ const { name, price, description } = Astro.props;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    transition: ease-in-out 0.2s;
   }
 
   .food-item-name {
@@ -36,15 +40,20 @@ const { name, price, description } = Astro.props;
     margin-bottom: 8px;
   }
 
-  .food-item-price {
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
+  .price-addCart-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.food-item-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 
   .food-item-card:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     scale: 1.02;
-    transition: ease-in-out 0.2s;
     animation: pulseBorder 1.5s infinite;
   }
 
@@ -65,6 +74,24 @@ const { name, price, description } = Astro.props;
       outline: 4px solid #000000;
       box-shadow: 0 0 8px #7e2917;
     }
+  }
+
+  .addCart {
+    width: 40px;
+    height: 40px;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .addCart:hover {
+    background-color: black;
+    color: white;
   }
 
 </style>

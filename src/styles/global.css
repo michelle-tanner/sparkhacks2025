@@ -20,17 +20,23 @@
     top: 0;
     z-index: 1000;
 }
-
-/* Thai bowl logo */
-/* cant get the font to work */
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    font-family: "Alex Brush", serif;
-    font-weight: 400;
-    font-style: normal;
+/* Footer styles */
+.footer {
+    background-color: #BA2430;
+    margin-top: 20px;
+    color: #fff;
+    padding: 25px 0;
+    text-align: left;
+    width: 100%;
+    flex-shrink: 0;
 }
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 
 /* buttons */
 .button-group {
@@ -74,10 +80,11 @@
     font-family: "Brush Script MT", sans-serif;
     color: red;
     font-size: xxx-large;
+    transition: transform 0.3s ease;
 }
 
 .home-btn:hover {
-    transform: scale(1.2)
+    transform: scale(1.1);
 }
 
 /* General styles */
@@ -144,8 +151,8 @@ nav a:hover {
     /* font-size: 120%; */
     padding: 1rem;
     padding-top: 2.5rem;
-    margin-top: 10rem;
-    margin-bottom: 5;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     width: 100%;
     --mask: radial-gradient(25px at top,#0000 calc(100% - 1px),#000) 50%/46.25px 100%;
     -webkit-mask: var(--mask);
@@ -271,9 +278,9 @@ h1, h2 {
 
 .item {
   scroll-snap-align: center;
-  min-width: 120px;
-  height: 120px;
-  background-color: deeppink;
+  min-width: 275px;
+  height: 275px;
+  background-color: #7e2917;
   border-radius:8px;
 }
 
