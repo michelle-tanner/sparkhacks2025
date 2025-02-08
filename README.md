@@ -8,6 +8,7 @@ This Git Repository is a showcase of the Thai Bowl Official Website that we are 
 Languages: 
 - HTML, CSS, JavaScript
 <br>
+<hr>
 Frameworks used: 
 - Astro
 
