@@ -1,14 +1,16 @@
 # SparkHacks 2025
-## Team Name!
+## Pod Thai!
+<sup>**Pod Thai** is a run-on name from the Theme at UIC's 2025 Hackathon, **Under the C** 🪸! It incorporates the word Pod for a Pod of Sea Creatures 🐬, and Thai comes from our developed Website name. <sup>
+
 <sup> Easy Page View Link <a href="https://95jkkh64-4321.use.devtunnels.ms/" target="_blank">here</a> </sup>
 
 ## 🚀 About
-This Git Repository is a showcase of the Thai Bowl Official Website that we are currently discussing with Thai Bowl!
+This Git Repository is a showcase of the Thai Bowl Official Website that we are currently discussing for official deployment!
 
 Languages: 
 - HTML, CSS, JavaScript
 <br>
-<hr>
+
 Frameworks used: 
 - Astro
 
@@ -17,7 +19,17 @@ Please view our Website <a href="https://95jkkh64-4321.use.devtunnels.ms/" targe
 Here is the [Figma](https://www.figma.com/design/fOv3IHvzo8Lq04Wo5iTMxj/Thai-Bowl-Redesign?node-id=0-1&t=NKGrzQCZv4t4ZpPz-1) Design!
 
 ## 🔔 Credits
-Developed by [Christopher Harrison](https://github.com/ToppiTheThinker), [Hafsah Khan](), [Josephine Lee](https://github.com/abyssaldragonz), [Manasvi Sharma](), [Michelle Tanner](https://github.com/michelle-tanner/) <br> 
+Developed by: 
+
+- [Christopher Harrison](https://github.com/ToppiTheThinker), 
+
+- [Hafsah Khan](), 
+
+- [Josephine Lee](https://github.com/abyssaldragonz), 
+
+- [Manasvi Sharma](), 
+
+- [Michelle Tanner](https://github.com/michelle-tanner/) <br><br>
 
 Check out [Thai Bowl](https://thaibowltaylor.com/) at 1049 W Taylor St, Chicago, IL 60607
 <br> <br> <br>
