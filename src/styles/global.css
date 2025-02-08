@@ -112,6 +112,7 @@ nav a:hover {
 .banner {
     background-color: #72AE8F;
     margin-top: 10rem;
+    width: 100%;
 }
 
 h1, h2 {
