@@ -1,0 +1,25 @@
+---
+export let title = "Thai Bowl";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+
+        <!-- Font for the logo -->
+         <!-- we wont need if we replace it with a pic of it -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+        
+	</head>
+	<body>
+        <!-- this is where the stuff from index.astro is imported -->
+		<slot />
+	</body>
+</html>
