@@ -4,24 +4,36 @@ export let title = "Thai Bowl";
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-		<!-- Big Thai bowl picture -->
-		
-        <!-- Font for the logo -->
-         <!-- we wont need if we replace it with a pic of it -->
-		<link rel="icon" href="src/assets/footer-logo.jpg" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
-        
-	</head>
-	<body>
-        <!-- this is where the stuff from index.astro is imported -->
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Thai Bowl Taylor - Chicago, IL 60607</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Thai Bowl Taylor | 1049 W. Taylor Street, Chicago, IL 60607 | 312-226-9129. Copyright © 2025 All rights reserved."
+    />
+    <meta
+      name="keywords"
+      content="Thai Bowl, Chicago, IL, 60607, Thai Menu, Thai restaurant Chicago, Thai restaurant 60607, Thai food Chicago, Thai food 60607, Thai food delivery, Thai delivery Chicago, Thai delivery 60607, Thai food catering, Thai carry out, Thai dine in, Thai party trays, Thai food order online."
+    />
+    <meta name="author" content="Pod Thai @ UIC SparkHacks 2025" />
+    <link rel="icon" href="src/assets/thai_bowl_final_logo.png" />
+
+    <!-- Big Thai bowl picture -->
+
+    <!-- Font for the logo -->
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- this is where the stuff from index.astro is imported -->
+    <slot />
+  </body>
 </html>
