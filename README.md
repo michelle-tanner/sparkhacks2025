@@ -1,13 +1,19 @@
 # SparkHacks 2025
 ## Team Name!
-<sup> Easy Page View Link <a href="" target="_blank">here</a> </sup>
+<sup> Easy Page View Link <a href="https://95jkkh64-4321.use.devtunnels.ms/" target="_blank">here</a> </sup>
 
 ## 🚀 About
-Add super cool description here! <br>
+This Git Repository is a showcase of the Thai Bowl Official Website that we are currently discussing with Thai Bowl!
+
+Languages: 
+- HTML, CSS, JavaScript
+Frameworks used: 
+- Astro
+ <br>
 
 ## 📜 Documentation
-Add some documentation here! <br>
-[Figma](https://www.figma.com/design/fOv3IHvzo8Lq04Wo5iTMxj/Thai-Bowl-Redesign?node-id=0-1&t=NKGrzQCZv4t4ZpPz-1)
+Please view our Website <a href="https://95jkkh64-4321.use.devtunnels.ms/" target="_blank">here</a>!  <br>
+Here is the [Figma](https://www.figma.com/design/fOv3IHvzo8Lq04Wo5iTMxj/Thai-Bowl-Redesign?node-id=0-1&t=NKGrzQCZv4t4ZpPz-1) Design!
 
 ## 🔔 Credits
 Developed by [Christopher Harrison](https://github.com/ToppiTheThinker), [Hafsah Khan](), [Josephine Lee](https://github.com/abyssaldragonz), [Manasvi Sharma](), [Michelle Tanner](https://github.com/michelle-tanner/) <br> 
