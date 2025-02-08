@@ -5,6 +5,11 @@
     url('fonts/brushscript7_ms-regular_2-webfont.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'MINECRAFT';
+    src: url('/fonts/Minecraft.otf') format('opentype');
+}
+
 /* Reset styles */
 * {
     margin: 0;
@@ -84,13 +89,18 @@
 /* General styles */
 body {
     background-color: #FCF1E2;
-    font-family: 'ThaiBrush', sans-serif !important;
+    font-family: 'Minecraft', sans-serif !important;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+section {
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
 /* Logo image container */
@@ -144,7 +154,7 @@ nav a:hover {
 
 h1, h2 {
     margin: 20px 0;
-    font-family: 'ThaiBrush', sans-serif !important;
+    /* font-family: 'ThaiBrush', sans-serif !important; */
 }
 
 /* Green Gallery */
