@@ -109,6 +109,11 @@ nav a:hover {
 }
 
 /* Section headers */
+.banner {
+    background-color: #72AE8F;
+    margin-top: 10rem;
+}
+
 h1, h2 {
     margin: 20px 0;
 }
