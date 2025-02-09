@@ -1,74 +1,19 @@
 ---
-layout: "../layouts/Layout.astro";
+import Layout from "../layouts/Layout.astro";
 import Carousel2 from "../components/Carousel2.astro";
+import Header from "../layouts/Header.astro";
+import Footer from "../layouts/Footer.astro";
 import "../styles/global.css";
 ---
 
-<head>
-  <title>Thai Bowl Taylor - Chicago, IL 60607</title>
-  <meta charset="UTF-8" />
-  <meta
-    name="description"
-    content="Thai Bowl Taylor Menu | 1049 W. Taylor Street, Chicago, IL 60607 | 312-226-9129. Copyright © 2025 All rights reserved."
-  />
-  <meta
-    name="keywords"
-    content="Thai Bowl, Chicago, IL, 60607, Thai Menu, Thai restaurant Chicago, Thai restaurant 60607, Thai food Chicago, Thai food 60607, Thai food delivery, Thai delivery Chicago, Thai delivery 60607, Thai food catering, Thai carry out, Thai dine in, Thai party trays, Thai food order online."
-  />
-  <meta name="author" content="Pod Thai @ UIC SparkHacks 2025" />
-  <link rel="icon" href="src/assets/thai_bowl_final_logo.png" />
-</head>
+<!-- Header and metadata for page -->
+<Layout />
 
-<header class="header">
-  <a class="home-btn" href="/">Thai Bowl</a>
-  <div class="button-group">
-    <a class="menu-btn" href="/menu">Menu</a>
-    <a class="order-btn" href="/order-online">Order Online</a>
-  </div>
-</header>
-
-<!-- Big Thai bowl picture -->
-<div class="imgbox">
-  <img
-    style="max-width: 100%;"
-    class="center-fit"
-    src="src/assets/logo.png"
-    alt="Thai Bowl Banner"
-  />
-</div>
+<!-- Footer for page -->
+<Header />
 
 <!-- Carousel to display Thai Bowl images -->
 <Carousel2 />
 
 <!-- Footer for page -->
-<footer class="footer">
-  <div class="footer-content">
-    <img
-      style="width: 40px; height: 40pxpx; margin-top: 10px"
-      src="src/assets/footer-logo.jpg"
-      alt="footer logo"
-    />
-    <p style="margin-top: 10px; font-size: smaller">Pages</p>
-    <p>
-      &#8226; <a
-        style="color:white; font-weight: 100; font-size: medium"
-        href="/">Home</a>
-    </p>
-    <p>
-      &#8226; <a
-        style="color:white; font-weight: 100; font-size: medium"
-        href="/menu">Menu</a
-      >
-    </p>
-    <p>
-      &#8226; <a
-        style="color:white; font-weight: 100; font-size: medium"
-        href="/order-online">Order Online</a
-      >
-    </p>
-    <br />
-    <p style="margin-top: 10px; font-size: smaller">
-      &copy;2025 Pod Thai. All Rights Reserved
-    </p>
-  </div>
-</footer>
+<Footer />

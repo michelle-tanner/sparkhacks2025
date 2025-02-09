@@ -1,399 +1,107 @@
 ---
-layout: "../layouts/Layout.astro";
+import Layout from "../layouts/Layout.astro";
 import "../styles/global.css";
 import FoodItem from "../components/FoodItem.astro";
+import Header from "../layouts/Header.astro";
+import Footer from "../layouts/Footer.astro";
 ---
 
-<head>
-  <title>Thai Bowl Taylor - Chicago, IL 60607</title>
-  <meta charset="UTF-8" />
-  <meta
-    name="description"
-    content="Thai Bowl Taylor Online Order | 1049 W. Taylor Street, Chicago, IL 60607 | 312-226-9129. Copyright © 2025 All rights reserved."
-  />
-  <meta
-    name="keywords"
-    content="Thai Bowl, Chicago, IL, 60607, Thai Menu, Thai restaurant Chicago, Thai restaurant 60607, Thai food Chicago, Thai food 60607, Thai food delivery, Thai delivery Chicago, Thai delivery 60607, Thai food catering, Thai carry out, Thai dine in, Thai party trays, Thai food order online."
-  />
-  <meta name="author" content="Pod Thai @ UIC SparkHacks 2025" />
-  <link rel="icon" href="src/assets/thai_bowl_final_logo.png" />
-</head>
+<!-- Head and metadata for page -->
+<Layout />
 
-<header class="header">
-  <a class="home-btn" href="/">Thai Bowl</a>
-  <div class="button-group">
-    <a class="menu-btn" href="/menu">Menu</a>
-    <a class="order-btn" href="/order-online">Order Online</a>
-  </div>
-</header>
-
-<!-- Big Thai bowl picture -->
-<div class="imgbox">
-  <img
-    style="max-width: 100%;"
-    class="center-fit"
-    src="src/assets/logo.png"
-    alt="Thai Bowl Logo"
-  />
-</div>
+<!-- Header for page -->
+<Header />
 
 <h2>Appetizers</h2>
 <div class="food-items-container">
-  <FoodItem
-    name={"Egg Rolls"}
-    description={"Fried crispy... filled with cabbage, carrot, bean thread noodles."}
-    price={"3.50"}
-  />
-  <FoodItem
-    name={"Fried Tofu"}
-    description={"Crispy... finger fried cut tofu with sweet & sour crushed peanut sauce."}
-    price={"3.50"}
-  />
-  <FoodItem
-    name={"Spring Rolls"}
-    description={"Fresh hand Thai rolls filled with carrot, cucumber, sprout, fried egg & cream cheese. Topped with tamarind sauce."}
-    price={"4.95"}
-  />
-  <FoodItem
-    name={"Chicken Satay"}
-    description={"Chicken marinated in curry sauce, broiled and served with famous peanut sauce and cucumber salad."}
-    price={"4.95"}
-  />
-  <FoodItem
-    name={"Shrimp Potstickers"}
-    description={"Shrimp & vegetables dumpling served with ginger soy sauce."}
-    price={"4.95"}
-  />
-  <FoodItem
-    name={"Fish Cake"}
-    description={"Ground filet of fish with chili paste, fried and served with cucumber salad."}
-    price={"4.95"}
-  />
-  <FoodItem
-    name={"Shrimp Balls"}
-    description={"Shrimp shu-mai fried and served with sweet & sour sauce."}
-    price={"4.95"}
-  />
-  <FoodItem
-    name={"Crab Rangoon"}
-    description={"Crispy & Delicious."}
-    price={"4.95"}
-  />
+  <FoodItem name={"Egg Rolls"} description={"Fried crispy... filled with cabbage, carrot, bean thread noodles."} price={"3.50"} />
+  <FoodItem name={"Fried Tofu"} description={"Crispy... finger fried cut tofu with sweet & sour crushed peanut sauce."} price={"3.50"} />
+  <FoodItem name={"Spring Rolls"} description={"Fresh hand Thai rolls filled with carrot, cucumber, sprout, fried egg & cream cheese. Topped with tamarind sauce."} price={"4.95"} />
+  <FoodItem name={"Chicken Satay"} description={"Chicken marinated in curry sauce, broiled and served with famous peanut sauce and cucumber salad."} price={"4.95"} />
+  <FoodItem name={"Shrimp Potstickers"} description={"Shrimp & vegetables dumpling served with ginger soy sauce."} price={"4.95"} />
+  <FoodItem name={"Fish Cake"} description={"Ground filet of fish with chili paste, fried and served with cucumber salad."} price={"4.95"} />
+  <FoodItem name={"Shrimp Balls"} description={"Shrimp shu-mai fried and served with sweet & sour sauce."} price={"4.95"} />
+  <FoodItem name={"Crab Rangoon"} description={"Crispy & Delicious."} price={"4.95"} />
 </div>
 <h2>Yum Yum Salads</h2>
 <div class="food-items-container">
-  <FoodItem
-    name={"Cucumbers Salads"}
-    description={"Fresh cucumber, onions, carrot, with sweet & sour vinegar dressing."}
-    price={"2.95"}
-  />
-  <FoodItem
-    name={"Green Garden"}
-    description={"with Peanut Sauce dressing"}
-    price={"4.95"}
-  />
-  <FoodItem
-    name={"Chicken Salad"}
-    description={"Chicken mixed with onions, hot chili and lemon juice. Served with fresh crispy green."}
-    price={"5.95"}
-  />
-  <FoodItem
-    name={"Beef Salad"}
-    description={"Broiled tender beef mixed with onions, tomatoes, hot chili, and spicy tasty lemon dressing."}
-    price={"5.95"}
-  />
-  <FoodItem
-    name={"Noodle Salad"}
-    description={"Glass noodle, crab, chicken, shrimp mixed with onion, chili paste, and lemon juice"}
-    price={"5.95"}
-  />
+  <FoodItem name={"Cucumbers Salads"} description={"Fresh cucumber, onions, carrot, with sweet & sour vinegar dressing."} price={"2.95"} />
+  <FoodItem name={"Green Garden"} description={"with Peanut Sauce dressing"} price={"4.95"} />
+  <FoodItem name={"Chicken Salad"} description={"Chicken mixed with onions, hot chili and lemon juice. Served with fresh crispy green."} price={"5.95"} />
+  <FoodItem name={"Beef Salad"} description={"Broiled tender beef mixed with onions, tomatoes, hot chili, and spicy tasty lemon dressing."} price={"5.95"} />
+  <FoodItem name={"Noodle Salad"} description={"Glass noodle, crab, chicken, shrimp mixed with onion, chili paste, and lemon juice"} price={"5.95"} />
 </div>
 <h2>Thai Bowl Favorite Noodle</h2>
 <div class="food-items-container">
-  <FoodItem
-    name={"Pad Thai"}
-    description={"The most famous Thai noodle dish. Thin rice noodle stir-fried with egg, sprout, green onions, chili & crushed peanut. Choice of tofu, chicken, beef or shrimp."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Pad See-Ew"}
-    description={"Stir-fried fresh rice thick noodles with egg, broccoli & sweet soy sauce. Choice of tofu, chicken, beef or shrimp."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Lard Nhar"}
-    description={"Fried fresh rice thick noodles topped with stir-fried chicken or beef, broccoli in our delicious brown gravy."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Crazy Noodles"}
-    description={"Stir-fried fresh rice thick noodles with chicken, mixed vegetables, basil leaves & chili."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Jade Noodles"}
-    description={"Stir-fried spinach noodles with sprout, garlic, eggs, hot chili sauce. Choice of tofu, chicken, beef or shrimp."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Noodle Hot Pot"}
-    description={"Mushrooms, onions, garlic, bamboo, celery, and chicken. Spicy oriental sauce with egg noodles."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Beef Curry Noodles"}
-    description={"Egg noodles with rich coconut curry sauce. Hot Typical Thai Taste."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Pad Woonsen"}
-    description={"Stir-fried glass noodles with shrimp, crab meat, onion, garlic, sprout & egg."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Bamee-Wonton Noodles"}
-    description={"Thai famous egg noodles with Bar-B-Q pork or steamed chicken, fried wonton, crab meat & sprouts."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Pin Noodles Duck Pad-Thai"}
-    description={"Stir-fried pin noodles with roasted duck, eggs, sprout in our Pad Thai sauce."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Pan Fried Chicken Noodles"}
-    description={"Fresh rice thick noodle, chicken, egg, carrot, celery, green onions, cilantro, pan fried to golden brown with special sauce."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Asian Beef and Noodles"}
-    description={"Beef, sesame oil, sliced green onions, carrot, Asian noodles, red onion and Thai Bowl's special sauce."}
-    price={"8.50"}
-  />
+  <FoodItem name={"Pad Thai"} description={"The most famous Thai noodle dish. Thin rice noodle stir-fried with egg, sprout, green onions, chili & crushed peanut. Choice of tofu, chicken, beef or shrimp."} price={"8.50"} />
+  <FoodItem name={"Pad See-Ew"} description={"Stir-fried fresh rice thick noodles with egg, broccoli & sweet soy sauce. Choice of tofu, chicken, beef or shrimp."} price={"8.50"} />
+  <FoodItem name={"Lard Nhar"} description={"Fried fresh rice thick noodles topped with stir-fried chicken or beef, broccoli in our delicious brown gravy."} price={"8.50"} />
+  <FoodItem name={"Crazy Noodles"} description={"Stir-fried fresh rice thick noodles with chicken, mixed vegetables, basil leaves & chili."} price={"8.50"} />
+  <FoodItem name={"Jade Noodles"} description={"Stir-fried spinach noodles with sprout, garlic, eggs, hot chili sauce. Choice of tofu, chicken, beef or shrimp."} price={"8.50"} />
+  <FoodItem name={"Noodle Hot Pot"} description={"Mushrooms, onions, garlic, bamboo, celery, and chicken. Spicy oriental sauce with egg noodles."} price={"8.50"} />
+  <FoodItem name={"Beef Curry Noodles"} description={"Egg noodles with rich coconut curry sauce. Hot Typical Thai Taste."} price={"8.50"} />
+  <FoodItem name={"Pad Woonsen"} description={"Stir-fried glass noodles with shrimp, crab meat, onion, garlic, sprout & egg."} price={"8.50"} />
+  <FoodItem name={"Bamee-Wonton Noodles"} description={"Thai famous egg noodles with Bar-B-Q pork or steamed chicken, fried wonton, crab meat & sprouts."} price={"8.50"} />
+  <FoodItem name={"Pin Noodles Duck Pad-Thai"} description={"Stir-fried pin noodles with roasted duck, eggs, sprout in our Pad Thai sauce."} price={"8.50"} />
+  <FoodItem name={"Pan Fried Chicken Noodles"} description={"Fresh rice thick noodle, chicken, egg, carrot, celery, green onions, cilantro, pan fried to golden brown with special sauce."} price={"8.50"} />
+  <FoodItem name={"Asian Beef and Noodles"} description={"Beef, sesame oil, sliced green onions, carrot, Asian noodles, red onion and Thai Bowl's special sauce."} price={"8.50"} />
 </div>
 <h2>Soups</h2>
 <div class="food-items-container">
-  <FoodItem
-    name={"To-fu Vegetables"}
-    description={"Clear broth soup with to-fu & vegetables."}
-    price={4.95}
-  />
-  <FoodItem
-    name={"Tom-Yum Chicken or Shrimps"}
-    description={"Hot & sour soup with straw mushrooms, tomatoes. Seasoned with lemon grass, kaffir leaves and fresh lime juice."}
-    price={"4.95"}
-  />
-  <FoodItem
-    name={"Tom-Khar Chicken or Shrimps"}
-    description={"Creamy coconut soup with straw mushrooms and tomatoes. Special with Thai Galanga root, kaffir leaves and fresh lime juice."}
-    price={"4.95"}
-  />
-  <FoodItem
-    name={"Bamee Pork Wonton Soup"}
-    description={"Clear chicken broth with egg noodles, pork wonton, sprout & green."}
-    price={"5.95"}
-  />
-  <FoodItem
-    name={"Beef Noodles"}
-    description={"Slice tender beef, beef broth, sprout thick rice noodles."}
-    price={"5.95"}
-  />
-  <FoodItem
-    name={"Chicken Noodles"}
-    description={"Slice chicken, clear chicken broth, sprout, thin rice noodles."}
-    price={"5.95"}
-  />
-  <FoodItem
-    name={"Hot and Sour Soup"}
-    description={"Bamboo, chicken, straw mushroom, egg, hot chili, sweet and sour vinegar flavor."}
-    price={"4.95"}
-  />
+  <FoodItem name={"To-fu Vegetables"} description={"Clear broth soup with to-fu & vegetables."} price={4.95} />
+  <FoodItem name={"Tom-Yum Chicken or Shrimps"} description={"Hot & sour soup with straw mushrooms, tomatoes. Seasoned with lemon grass, kaffir leaves and fresh lime juice."} price={"4.95"} />
+  <FoodItem name={"Tom-Khar Chicken or Shrimps"} description={"Creamy coconut soup with straw mushrooms and tomatoes. Special with Thai Galanga root, kaffir leaves and fresh lime juice."} price={"4.95"} />
+  <FoodItem name={"Bamee Pork Wonton Soup"} description={"Clear chicken broth with egg noodles, pork wonton, sprout & green."} price={"5.95"} />
+  <FoodItem name={"Beef Noodles"} description={"Slice tender beef, beef broth, sprout thick rice noodles."} price={"5.95"} />
+  <FoodItem name={"Chicken Noodles"} description={"Slice chicken, clear chicken broth, sprout, thin rice noodles."} price={"5.95"} />
+  <FoodItem name={"Hot and Sour Soup"} description={"Bamboo, chicken, straw mushroom, egg, hot chili, sweet and sour vinegar flavor."} price={"4.95"} />
 </div>
 <h2>Fried Rice</h2>
 <div class="food-items-container">
-  <FoodItem
-    name={"Fried Rice (One Choice)"}
-    description={"Your choice of Beef, Chicken, Shrimp, Crab Meat, Vegetables, Tofu, Pineapple, or Basil."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Thai Bowl Mixed"}
-    description={"Crab, Shrimp, Chicken, Beef, Vegetables with Onions, Garlic, Tomatoes, aroma with Curry Powder Scent."}
-    price={"9.95"}
-  />
+  <FoodItem name={"Fried Rice (One Choice)"} description={"Your choice of Beef, Chicken, Shrimp, Crab Meat, Vegetables, Tofu, Pineapple, or Basil."} price={"8.50"} />
+  <FoodItem name={"Thai Bowl Mixed"} description={"Crab, Shrimp, Chicken, Beef, Vegetables with Onions, Garlic, Tomatoes, aroma with Curry Powder Scent."} price={"9.95"} />
 </div>
 <h2>Rice-Rice-Rice</h2>
 <div class="food-items-container">
-  <FoodItem
-    name={"Red Curry"}
-    description={"Spicy curry with Thai eggplants, bamboo shoots, hot chili, and basil leaves. Choice of tofu, chicken, beef, or shrimp."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Green Curry"}
-    description={"Spicy curry sauce, sweet pea, bell pepper, hot chili, and basil leaves. Choice of tofu, chicken, beef, or shrimp."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Rama Chicken"}
-    description={"Chicken, steamed broccoli, with our delicious creamy peanut sauce."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Panang Curry Beef"}
-    description={"Spicy Panang peanut curry sauce, hot chili, straw mushrooms, baby corn, and bell pepper."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Cashew Chicken"}
-    description={"Chicken, onion, garlic, bell pepper, carrot, water chestnut, dry chili, and cashew nut."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Garlic Chicken"}
-    description={"Stir-fried chicken with garlic. Served with broccoli, baby corn, mushroom, and carrot."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Ginger Chicken"}
-    description={"Stir-fried chicken with ginger root, bell pepper, garlic, onions, mushroom, and carrot."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Basil Chicken"}
-    description={"Ground chicken, garlic, onions, bell pepper, hot chili, and basil leaves."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Sweet & Sour Chicken"}
-    description={"Crispy golden brown chicken tender served with sweet & sour sauce."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Spicy Pepper Beef"}
-    description={"Beef stir-fried with spicy hot sauce, bell pepper, onion, garlic, and tomatoes."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Beef Oyster Sauce"}
-    description={"Beef stir-fried with broccoli in rich oyster sauce flavor."}
-    price={"8.50"}
-  />
-  <FoodItem
-    name={"Oriental Veggies"}
-    description={"Mixed oriental vegetables with special brown sauce. Choice of vegetarian, tofu, chicken, beef, or shrimp."}
-    price={"8.50"}
-  />
+  <FoodItem name={"Red Curry"} description={"Spicy curry with Thai eggplants, bamboo shoots, hot chili, and basil leaves. Choice of tofu, chicken, beef, or shrimp."} price={"8.50"} />
+  <FoodItem name={"Green Curry"} description={"Spicy curry sauce, sweet pea, bell pepper, hot chili, and basil leaves. Choice of tofu, chicken, beef, or shrimp."} price={"8.50"} />
+  <FoodItem name={"Rama Chicken"} description={"Chicken, steamed broccoli, with our delicious creamy peanut sauce."} price={"8.50"} />
+  <FoodItem name={"Panang Curry Beef"} description={"Spicy Panang peanut curry sauce, hot chili, straw mushrooms, baby corn, and bell pepper."} price={"8.50"} />
+  <FoodItem name={"Cashew Chicken"} description={"Chicken, onion, garlic, bell pepper, carrot, water chestnut, dry chili, and cashew nut."} price={"8.50"} />
+  <FoodItem name={"Garlic Chicken"} description={"Stir-fried chicken with garlic. Served with broccoli, baby corn, mushroom, and carrot."} price={"8.50"} />
+  <FoodItem name={"Ginger Chicken"} description={"Stir-fried chicken with ginger root, bell pepper, garlic, onions, mushroom, and carrot."} price={"8.50"} />
+  <FoodItem name={"Basil Chicken"} description={"Ground chicken, garlic, onions, bell pepper, hot chili, and basil leaves."} price={"8.50"} />
+  <FoodItem name={"Sweet & Sour Chicken"} description={"Crispy golden brown chicken tender served with sweet & sour sauce."} price={"8.50"} />
+  <FoodItem name={"Spicy Pepper Beef"} description={"Beef stir-fried with spicy hot sauce, bell pepper, onion, garlic, and tomatoes."} price={"8.50"} />
+  <FoodItem name={"Beef Oyster Sauce"} description={"Beef stir-fried with broccoli in rich oyster sauce flavor."} price={"8.50"} />
+  <FoodItem name={"Oriental Veggies"} description={"Mixed oriental vegetables with special brown sauce. Choice of vegetarian, tofu, chicken, beef, or shrimp."} price={"8.50"} />
 </div>
 <h2>Thai Bowl Sweet Home</h2>
 <div class="food-items-container">
-  <FoodItem
-    name={"Sweet Banana Rolls"}
-    description={"Sweet banana rolls with chocolate sauce."}
-    price={"4.50"}
-  />
-  <FoodItem
-    name={"Green Tea Ice Cream"}
-    description={"Refreshing green tea ice cream."}
-    price={"2.50"}
-  />
+  <FoodItem name={"Sweet Banana Rolls"} description={"Sweet banana rolls with chocolate sauce."} price={"4.50"} />
+  <FoodItem name={"Green Tea Ice Cream"} description={"Refreshing green tea ice cream."} price={"2.50"} />
 </div>
 <h2>Drinks</h2>
 <div class="food-items-container">
-  <FoodItem
-    name={"Pop"}
-    description={"Refreshing carbonated drink"}
-    price={"1.00"}
-  />
-  <FoodItem
-    name={"Iced Tea"}
-    description={"Chilled brewed tea"}
-    price={"1.50"}
-  />
-  <FoodItem
-    name={"Hot Tea"}
-    description={"Freshly brewed hot tea"}
-    price={"1.50"}
-  />
-  <FoodItem
-    name={"Hot Coffee"}
-    description={"Rich and warm coffee"}
-    price={"2.00"}
-  />
-  <FoodItem
-    name={"Thai Iced Tea"}
-    description={"Sweet and creamy Thai-style iced tea"}
-    price={"2.50"}
-  />
-  <FoodItem
-    name={"Thai Iced Coffee"}
-    description={"Strong and sweet Thai-style iced coffee"}
-    price={"2.50"}
-  />
-  <FoodItem
-    name={"Thai Bowl Ices"}
-    description={"Choice of Mango, Watermelon, Strawberry, Thai Tea Boba, Banana, Pineapple, Kiwi, Honey Dew, Avocado, and more"}
-    price={"3.00"}
-  />
+  <FoodItem name={"Pop"} description={"Refreshing carbonated drink"} price={"1.00"} />
+  <FoodItem name={"Iced Tea"} description={"Chilled brewed tea"} price={"1.50"} />
+  <FoodItem name={"Hot Tea"} description={"Freshly brewed hot tea"} price={"1.50"} />
+  <FoodItem name={"Hot Coffee"} description={"Rich and warm coffee"} price={"2.00"} />
+  <FoodItem name={"Thai Iced Tea"} description={"Sweet and creamy Thai-style iced tea"} price={"2.50"} />
+  <FoodItem name={"Thai Iced Coffee"} description={"Strong and sweet Thai-style iced coffee"} price={"2.50"} />
+  <FoodItem name={"Thai Bowl Ices"} description={"Choice of Mango, Watermelon, Strawberry, Thai Tea Boba, Banana, Pineapple, Kiwi, Honey Dew, Avocado, and more"} price={"3.00"} />
 </div>
 <h2>Side Orders</h2>
 <div class="food-items-container">
   <FoodItem name={"Hot Sauce"} description={"Spicy condiment"} price={"1.00"} />
-  <FoodItem
-    name={"Steamed Rice"}
-    description={"Plain steamed white rice"}
-    price={"1.50"}
-  />
-  <FoodItem
-    name={"Steamed Noodles"}
-    description={"Simple steamed noodles"}
-    price={"2.00"}
-  />
-  <FoodItem
-    name={"Peanut Sauce"}
-    description={"Rich and nutty peanut sauce"}
-    price={"2.50"}
-  />
-  <FoodItem
-    name={"Brown Rice"}
-    description={"Healthy steamed brown rice"}
-    price={"2.50"}
-  />
+  <FoodItem name={"Steamed Rice"} description={"Plain steamed white rice"} price={"1.50"} />
+  <FoodItem name={"Steamed Noodles"} description={"Simple steamed noodles"} price={"2.00"} />
+  <FoodItem name={"Peanut Sauce"} description={"Rich and nutty peanut sauce"} price={"2.50"} />
+  <FoodItem name={"Brown Rice"} description={"Healthy steamed brown rice"} price={"2.50"} />
 </div>
 
 <!-- Footer for page -->
-<footer class="footer">
-  <div class="footer-content">
-    <img
-      style="width: 40px; height: 40pxpx; margin-top: 10px"
-      src="src/assets/footer-logo.jpg"
-      alt="footer logo"
-    />
-    <p style="margin-top: 10px; font-size: smaller">Pages</p>
-    <p>
-      &#8226; <a
-        style="color:white; font-weight: 100; font-size: medium"
-        href="/">Home</a
-      >
-    </p>
-    <p>
-      &#8226; <a
-        style="color:white; font-weight: 100; font-size: medium"
-        href="/menu">Menu</a
-      >
-    </p>
-    <p>
-      &#8226; <a
-        style="color:white; font-weight: 100; font-size: medium"
-        href="/order-online">Order Online</a
-      >
-    </p>
-    <br />
-    <p style="margin-top: 10px; font-size: smaller">
-      &copy;2025 Pod Thai. All Rights Reserved
-    </p>
-  </div>
-</footer>
+<Footer />
 
 <style>
   .food-items-container {

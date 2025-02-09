@@ -15,7 +15,8 @@ Frameworks:
 
 
 ## 📜 Documentation
-Please view our Website <a href="https://95jkkh64-4321.use.devtunnels.ms/" target="_blank">here</a>!  <br>
+Please view our DevPost for more project details [here](https://devpost.com/software/pod-thai-s-small-biz-big-impact)! <br>
+Please visit our Website [here](https://95jkkh64-4321.use.devtunnels.ms/)! <br>
 Here is the [Figma](https://www.figma.com/design/fOv3IHvzo8Lq04Wo5iTMxj/Thai-Bowl-Redesign?node-id=0-1&t=NKGrzQCZv4t4ZpPz-1) Design!
 
 ## 🔔 Credits
