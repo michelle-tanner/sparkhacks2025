@@ -276,7 +276,20 @@ h1, h2 {
   align-self: center
 }
 
+/* order-online styling page */
 
+.food-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 7rem;
+  }
+
+  .food-item-style {
+    text-decoration: underline;
+  }
 
 /* Responsive Design */
 @media (max-width: 768px) {
