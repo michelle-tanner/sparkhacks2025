@@ -2,7 +2,7 @@
 ## Pod Thai!
 <sup>**Pod Thai** is a run-on name from the Theme at UIC's 2025 Hackathon, **Under the C** 🪸! It incorporates the word Pod for a Pod of Sea Creatures 🐬, and Thai comes from our developed Website name. <sup>
 
-<sup> Easy Page View Link <a href="https://95jkkh64-4321.use.devtunnels.ms/" target="_blank">here</a>. Read below to run locally. </sup>
+<sup> Easy Page View Link <a href="https://toppithethinker.github.io/sparkhacks2025/" target="_blank">here</a>. Read below to run locally. </sup>
 
 ## 🚀 About
 This Git Repository is a showcase of the Thai Bowl Official Website that we are currently discussing for official deployment!
@@ -16,7 +16,7 @@ Frameworks:
 
 ## 📜 Documentation
 Please view our DevPost for more project details [here](https://devpost.com/software/pod-thai-s-small-biz-big-impact)! <br>
-Please visit our Website [here](https://95jkkh64-4321.use.devtunnels.ms/)! <br>
+Please visit our Website [here](https://toppithethinker.github.io/sparkhacks2025/)! <br>
 Here is the [Figma](https://www.figma.com/design/fOv3IHvzo8Lq04Wo5iTMxj/Thai-Bowl-Redesign?node-id=0-1&t=NKGrzQCZv4t4ZpPz-1) Design!
 
 ## 🔔 Credits
